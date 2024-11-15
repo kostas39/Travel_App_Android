@@ -1,0 +1,103 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_purple_pink"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel App London"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <!-- Instructions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app can help you where to go in and around London by your own selected travel mode!"
+        android:textSize="24sp"
+        android:paddingBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- Travel Mode RadioGroup -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Travel Mode:"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:paddingBottom="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/boatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boat"
+            android:textStyle="bold"
+            android:textColor="@color/blue_500"/>
+        <RadioButton
+            android:id="@+id/trainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Train"
+            android:textStyle="bold"
+            android:textColor="@color/blue_500"/>
+        <RadioButton
+            android:id="@+id/airplaneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airplane"
+            android:textStyle="bold"
+            android:textColor="@color/blue_500"/>
+    </RadioGroup>
+
+    <!-- Destination Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Destination:"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:id="@+id/destinationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear Selection"/>
+    </LinearLayout>
+</LinearLayout>

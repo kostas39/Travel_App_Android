@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travel_App</string>
+    <string name="clear">Clear Selection</string>
+    <string name="submit">Submit</string>
+    <string name="Destination">Select Destination:</string>
+    <string name="Plane">Airplane</string>
+    <string name="Train">Train</string>
+    <string name="Boat">Boat</string>
+    <string name="Travel_mode">Select Travel Mode:</string>
+    <string name="app_guide">This app can help you where to go in and around London by your own selected travel mode!</string>
+    <string name="Travel">Travel App London</string>
+</resources>

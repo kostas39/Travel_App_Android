@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="travelModeGroup" type="id" />
+    <item name="destinationSpinner" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="clearButton" type="id" />
+    <item name="destinationInfoText" type="id" />
+    <item name="boatOption" type="id" />
+    <item name="trainOption" type="id" />
+    <item name="airplaneOption" type="id" />
+    <item name="titleText" type="id" />
+    <item name="descriptionText" type="id" />
+    <item name="selectTravelModeText" type="id" />
+    <item name="selectDestinationText" type="id" />
+</resources>
